@@ -38,3 +38,60 @@ A área mais importante. Deve ser limpa e funcional.
 *   **Ícones de Ação (Direita):**
     *   **Menu Principal (Ícone do Alchemy):** Um ícone com o logo do Alchemy (o frasco) abre o menu principal (Configurações, Histórico, Downloads, etc.).
     *   **Extensões (Peça de Quebra-Cabeça):** Um único ícone para gerenciar as extensões, mantendo a barra limpa.
+
+---
+
+## 2. Menu Principal
+
+Acionado pelo clique no ícone do Alchemy na barra superior, este menu é a porta de entrada para as funções principais do navegador.
+
+*   **Design:** Um menu suspenso (dropdown) vertical, limpo e com bom espaçamento entre os itens.
+*   **Itens do Menu:** Cada item terá um ícone SVG minimalista à sua esquerda.
+    *   Nova Aba
+    *   Nova Janela
+    *   Histórico
+    *   Downloads
+    *   Favoritos
+    *   Extensões
+    *   Imprimir...
+    *   --- (Linha separadora)
+    *   **Configurações**
+    *   **Estúdio de Customização** (Este é o link para a nossa área de customização ampla)
+    *   --- (Linha separadora)
+    *   Ajuda
+    *   Sobre o Alchemy
+    *   Sair
+
+---
+
+## 3. Página de Configurações ("Configurações Diretas")
+
+Esta página é um pilar da nossa filosofia. O objetivo é ser o oposto de páginas de configuração confusas.
+
+### 3.1. Filosofia de Design
+
+*   **Clareza e Intenção:** O usuário deve encontrar o que procura em segundos. A linguagem usada será simples e direta, evitando jargão técnico sempre que possível.
+*   **Busca em Primeiro Lugar:** A ferramenta mais proeminente na página de configurações será a barra de busca.
+
+### 3.2. Layout
+
+*   **Estrutura de Duas Colunas:**
+    *   **Coluna da Esquerda:** Um menu de navegação com as categorias principais (Aparência, Privacidade, Desempenho, etc.).
+    *   **Coluna da Direita:** A área principal onde as opções da categoria selecionada são exibidas.
+*   **Barra de Busca:** Localizada no topo da coluna da direita. Conforme o usuário digita, as opções relevantes de TODAS as categorias são exibidas instantaneamente.
+
+### 3.3. Categorias Principais (Coluna da Esquerda)
+
+1.  **Perfil:** Gerenciar perfis de usuário (se houver mais de um).
+2.  **Aparência:**
+    *   Opções simples: Modo Claro, Modo Escuro, Usar tema do sistema.
+    *   **Link de Atalho:** "Quer mais opções? Visite nosso **Estúdio de Customização**."
+3.  **Privacidade e Segurança:**
+    *   Controles do uBlock Origin: Ligar/Desligar bloqueio de anúncios, Ligar/Desligar bloqueio de rastreadores.
+    *   Opções para limpar dados de navegação (histórico, cookies, cache).
+4.  **Desempenho:**
+    *   Modo de Economia de Memória (para abas inativas).
+    *   Ativar/Desativar aceleração de hardware.
+    *   Controles simples para o usuário se sentir no comando.
+5.  **Motor de Busca:** Escolher o buscador padrão da barra de endereço.
+6.  **Sistema:** Configurações de download, gerenciamento de senhas.
