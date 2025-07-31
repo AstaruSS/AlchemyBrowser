@@ -94,4 +94,52 @@ Esta página é um pilar da nossa filosofia. O objetivo é ser o oposto de pági
     *   Ativar/Desativar aceleração de hardware.
     *   Controles simples para o usuário se sentir no comando.
 5.  **Motor de Busca:** Escolher o buscador padrão da barra de endereço.
+
+---
+
+## 4. Estúdio de Customização
+
+Esta não é uma página de configurações, é um ateliê. O Estúdio de Customização é onde o usuário tem liberdade total para moldar o Alchemy à sua imagem. A interface aqui será mais visual e interativa.
+
+### 4.1. Filosofia de Design
+
+*   **Poder e Clareza:** Oferecer opções avançadas sem sobrecarregar. A interface será organizada em abas para separar os diferentes domínios da customização.
+*   **Feedback Instantâneo:** Todas as alterações feitas no Estúdio (cores, fontes, layout) serão refletidas na interface do navegador em tempo real, para que o usuário veja o resultado de suas escolhas imediatamente.
+
+### 4.2. Layout em Abas
+
+A página do Estúdio será organizada nas seguintes abas:
+
+1.  **Temas**
+2.  **Fontes**
+3.  **Estrutura**
+4.  **Atalhos**
+
+### 4.3. Detalhes das Abas
+
+*   **Aba "Temas":**
+    *   **Seletor de Cores Completo:** O usuário terá um seletor de cores (color picker) para cada elemento principal da interface:
+        *   Cor de fundo da barra superior
+        *   Cor de fundo da aba ativa
+        *   Cor do texto da aba ativa
+        *   Cor de fundo das abas inativas
+        *   Cor do texto das abas inativas
+        *   Cor da barra de endereço
+        *   Cor de destaque principal (usada em menus e seleções)
+    *   **Gerenciador de Temas:** Capacidade de salvar o conjunto de cores atual como um novo tema, dar um nome a ele e alternar entre temas salvos.
+    *   **Importar/Exportar:** Opções para exportar um tema para um arquivo de texto (JSON) e importar temas criados por outros usuários.
+
+*   **Aba "Fontes":**
+    *   **Fonte da Interface:** Opção para escolher qualquer fonte instalada no sistema para ser usada na interface do navegador (menus, abas, etc.).
+    *   **Fonte Padrão para Páginas:** Definir fontes padrão para conteúdo de páginas web (serif, sans-serif, monoespaçada).
+    *   **Carregar Fonte Personalizada:** Botão para fazer upload de um arquivo de fonte (`.ttf`, `.otf`) diretamente do computador do usuário.
+
+*   **Aba "Estrutura":**
+    *   **Posição da Barra de Abas:** Botões de opção para definir a barra de abas no topo (padrão), na lateral esquerda, na lateral direita ou na parte inferior.
+    *   **Barra de Favoritos:** Opções para "Sempre mostrar", "Mostrar apenas na página inicial" ou "Esconder (mostrar ao passar o mouse)".
+    *   **Modo Zen:** Um interruptor para ativar um modo de foco total, que esconde toda a interface do navegador, mostrando apenas o conteúdo da página.
+
+*   **Aba "Atalhos":**
+    *   Uma lista de todas as ações do navegador (Nova Aba, Fechar Aba, Abrir Configurações, etc.).
+    *   Ao lado de cada ação, um campo editável para o usuário definir sua própria combinação de teclas de atalho.
 6.  **Sistema:** Configurações de download, gerenciamento de senhas.
