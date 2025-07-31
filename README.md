@@ -1,6 +1,10 @@
 # 🧪 Alchemy Browser
 
-![Alchemy ASCII Art Logo](https://raw.githubusercontent.com/user-attachments/assets/b6a2d1d0-1b22-4416-8097-909787e9eb49)
+  / \
+ / _ \
+| / \ |
+|/   \|
+'-----'
 
 **Transforme a sua web. Navegação limpa, rápida e pessoal.**
 
